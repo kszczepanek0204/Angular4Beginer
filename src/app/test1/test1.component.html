@@ -1,0 +1,12 @@
+<div>
+    <form>
+        <div>
+            Podaj liczbe: 
+            <input type="number"
+                    name="liczba"
+                    [(ngModel)]="liczba" />
+
+                <button (click)="counterService.Increase()">Dodaj</button>
+        </div>
+    </form>
+</div>
